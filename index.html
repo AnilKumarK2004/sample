@@ -3,73 +3,223 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="data:image/jpeg;base64,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" type="image" >
-    <title>Anil Kumar Profile</title>
+    <title>Anil Kumar Kedarsetty - Profile</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
     <style>
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateX(-100px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.05);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+
+        @keyframes colorShift {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #3498db;
+            --accent-color: #2ecc71;
+            --text-color: #ecf0f1;
+            --background-color: #34495e;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
         body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(45deg, var(--primary-color), var(--background-color), var(--secondary-color));
+            background-size: 400% 400%;
+            color: var(--text-color);
+            line-height: 1.6;
+            animation: colorShift 15s ease infinite;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            perspective: 1000px;
+        }
+
+        .profile-container {
+            display: flex;
+            max-width: 1100px;
+            background-color: rgba(44, 62, 80, 0.8);
+            border-radius: 15px;
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+            transform-style: preserve-3d;
+            transition: all 0.5s ease;
+        }
+
+        .profile-container:hover {
+            transform: rotateY(10deg);
+            box-shadow: 0 30px 60px rgba(0, 0, 0, 0.4);
+        }
+
+        .profile-image {
+            flex: 0 0 350px;
             display: flex;
             justify-content: center;
             align-items: center;
-            margin: 0;
-            height: 100vh;
-            background-color: black;
-            font-family: Arial, sans-serif;
-            color: white;
+            padding: 20px;
+            background: linear-gradient(135deg, var(--secondary-color), var(--primary-color));
+            position: relative;
+            overflow: hidden;
         }
-        
-        .profile-container {
-            display: flex;
-            width: 100%;
-            height: 100%;
-            max-width: 1200px; 
+
+        .profile-image::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%);
+            animation: rotate 20s linear infinite;
         }
-        
+
+        @keyframes rotate {
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        .profile-image img {
+            width: 300px;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 5px solid var(--text-color);
+            transition: all 0.5s ease;
+            animation: pulse 3s infinite;
+            will-change: transform;
+        }
+
+        .profile-image img:hover {
+            transform: scale(1.1) rotate(5deg);
+            filter: brightness(1.2);
+        }
+
         .profile-info {
             flex: 1;
-            padding: 20px;
-            background-color: #333; 
-            border-radius: 0 10px 10px 0;
-            box-shadow: inset 0 4px 8px rgba(0, 0, 0, 0.2);
-        }
-        
-        .profile-info h1 {
-            margin: 0;
-            font-size: 2em;
-        }
-        
-        .profile-info p {
-            font-size: 1em;
-            line-height: 1.5;
-        }
-        
-        .profile-image {
-            flex: 1;
+            padding: 40px;
             display: flex;
+            flex-direction: column;
             justify-content: center;
-            align-items: flex-start; 
-            padding: 100px;
-            max-width: 200px; 
+            animation: slideIn 1s ease;
         }
-        
-        .profile-image img {
-            border-radius: 25%;
-            width: 250px; 
-            height: 250px; 
-            object-fit: cover;
-            border: 3px solid #ddd;
+
+        .profile-info h1 {
+            font-size: 2.5em;
+            margin-bottom: 15px;
+            color: var(--accent-color);
+            animation: fadeIn 1.5s ease;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
         }
-        
+
+        .profile-info p {
+            margin-bottom: 20px;
+            font-size: 1.1em;
+            opacity: 0;
+            animation: fadeIn 2s ease forwards;
+            animation-delay: 0.5s;
+        }
+
+        .contact-links {
+            display: flex;
+            gap: 20px;
+            margin-top: 20px;
+            opacity: 0;
+            animation: slideIn 1s ease forwards;
+            animation-delay: 1s;
+        }
+
+        .contact-links a {
+            color: var(--text-color);
+            font-size: 1.5em;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            will-change: transform, color;
+        }
+
+        .contact-links a:hover {
+            color: var(--accent-color);
+            transform: scale(1.2) rotate(10deg);
+        }
+
+        @media (max-width: 768px) {
+            .profile-container {
+                flex-direction: column;
+                margin: 20px 10px;
+                transform: none;
+            }
+
+            .profile-container:hover {
+                transform: none;
+            }
+
+            .profile-image, .profile-info {
+                flex: 1 0 auto;
+                width: 100%;
+                padding: 20px;
+            }
+        }
     </style>
 </head>
 <body>
     <div class="profile-container">
+        <div class="profile-image">
+            <img src="WhatsApp Image 2024-08-27 at 19.31.37_b687f178.jpg" alt="Anil Kumar Kedarsetty">
+        </div>
         <div class="profile-info">
             <h1>Anil Kumar Kedarsetty</h1>
-            <p>Hello Everyone.</p>
-            <p>I am Anil Kumar Kedarsetty, currently pursuing a bachelor's degree in Computer Science and Engineering. I am an innovative and diligent student. I am dedicated to upskilling and improving my expertise in Artificial Intelligence and Machine Learning to fuel my passion and develop my abilities further. My aim is to leverage this growth to address complex challenges and make a meaningful impact.</p>
-        </div>
-        <div class="profile-image">
-            <img src="WhatsApp Image 2024-08-27 at 19.31.37_b687f178.jpg" alt="Profile Image">
+            <p>Hello Everyone! I'm an enthusiastic Computer Science and Engineering student with a passion for pushing the boundaries of technology.</p>
+            <p>My academic journey is driven by an unwavering commitment to learning and innovation. I specialize in Artificial Intelligence and Machine Learning, constantly seeking to expand my knowledge and develop cutting-edge solutions to complex challenges.</p>
+            <p>My mission is to leverage technological advancements to create meaningful impact, transform ideas into reality, and contribute to solving real-world problems through intelligent and creative approaches.</p>
+            
+            <div class="contact-links">
+                <a href="#" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="#" title="GitHub"><i class="fab fa-github"></i></a>
+                <a href="#" title="Email"><i class="fas fa-envelope"></i></a>
+            </div>
         </div>
     </div>
 </body>
